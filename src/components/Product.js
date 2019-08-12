@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Product = props => {
 	return (
@@ -9,9 +9,7 @@ const Product = props => {
 
 			<p className="price">${props.product.price}</p>
 
-			<button onClick={() => props.addItem(props.product)}>
-				Add to cart
-			</button>
+			<button onClick={() => props.addItem(props.product)}>Add to cart</button>
 		</div>
 	);
 };
